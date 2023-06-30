@@ -56,6 +56,7 @@ class Interfaz(object):
         self.registrotexto.place(x='10', y='60')
 
 
+
         #Logo al pie de pagina creador de este codigo
         self.icodigotexto=Label(self.ventana, text='by iCodigo Unlocker RD', font=['Arial',11], background='#B2E351', fg='black')
         self.icodigotexto.place(x='230', y='570')

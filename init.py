@@ -42,9 +42,10 @@ class Interfaz(object):
         self.twitterlabel=Label(self.ventana, image=self.twitter, background='#B2E351')
         self.twitterlabel.place(x='330', y='510')
 
-
+      
         
         #logo de Android
+        #ADDERLIS AGREGANDO ALGO 
         self.image1 ='andoird.png'
         self.test = PhotoImage(file=self.image1)
         self.logoamazon=Label(self.ventana, image=self.test, background='#B2E351')

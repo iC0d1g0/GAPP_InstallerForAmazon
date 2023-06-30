@@ -42,7 +42,7 @@ class Interfaz(object):
         self.twitterlabel=Label(self.ventana, image=self.twitter, background='#B2E351')
         self.twitterlabel.place(x='330', y='510')
 
-
+        #AGREGANDO UN COMENTARIO   para GIT
         
         #logo de Android
         self.image1 ='andoird.png'

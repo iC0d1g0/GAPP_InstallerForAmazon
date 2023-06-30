@@ -55,7 +55,7 @@ class Interfaz(object):
         self.registrotexto=Label(self.ventana, text='Registro', font=['Arial',8], background='#B2E351')
         self.registrotexto.place(x='10', y='60')
 
-
+        #USUARIOS DIFERENTES
 
         #Logo al pie de pagina creador de este codigo
         self.icodigotexto=Label(self.ventana, text='by iCodigo Unlocker RD', font=['Arial',11], background='#B2E351', fg='black')

@@ -1,6 +1,6 @@
-import tkinter
 from tkinter import *
 from tkinter import ttk
+
 
 class Interfaz(object):
     def __init__(self) -> None:
@@ -54,7 +54,7 @@ class Interfaz(object):
         #Label del registro arriba
         self.registrotexto=Label(self.ventana, text='Registro', font=['Arial',8], background='#B2E351')
         self.registrotexto.place(x='10', y='60')
-
+    
         #USUARIOS DIFERENTES
 
         #Logo al pie de pagina creador de este codigo
